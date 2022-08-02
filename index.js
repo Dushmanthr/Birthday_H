@@ -1,3 +1,8 @@
+function alet(){
+  alert("hi");
+}
+document.getElementById("btn").onclick=alet;
+
 class Tool {
     // random number.
     static randomNumber(min, max) {
@@ -15,6 +20,7 @@ class Tool {
         ")"
       );
     }
+
     // random color hsl.
     static randomColorHSL(hue, saturation, lightness) {
       return (
@@ -120,7 +126,7 @@ class Tool {
       this.textPosArr = [];
       // text
       this.fontSize = 500;
-      this.text = 'HAPPY BIRTHDAY HUISON!';
+      this.text = 'HAPPY BIRTHDAY හුයියා!';
       this.randomMax = 80;
       // size
       if (this.width < 768) {
@@ -203,7 +209,7 @@ class Tool {
         this.text = 'Grats!';
       } else {
         this.fontSize = 300;
-        this.text = 'HAPPY BIRTHDAY Huison!';
+        this.text = 'HAPPY BIRTHDAY හුයිසන්!';
       }
       this.offInit();
     }
