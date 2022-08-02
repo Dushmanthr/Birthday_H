@@ -15,7 +15,10 @@
     opacity: 1;
   }
 }
+.screen{
+  display: flex;
 
+}
 @keyframes flames {
   0% {
     height: 2.2em;
@@ -194,7 +197,11 @@ a {
 } 
 
 #btn{
+  border: none;
+  position: absolute;
   border-radius: 50px;
-  /* margin-left: 600px; */
-  background-color: wheat;
+  margin-left: 1100px;
+  background-color: transparent;
+  color: white;
+  font-size: xx-large;
 }

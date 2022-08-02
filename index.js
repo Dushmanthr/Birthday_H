@@ -474,8 +474,8 @@ class Particle {
     var clicks = 0;
     canvas.canvas.onclick=function(){
       clicks += 1;
-      if(clicks==20){
-        window.location.href = 'video.html'
+      if(clicks==25){
+        window.location.href = 'cake.html'
       }
     }
     canvas.canvas.addEventListener(
