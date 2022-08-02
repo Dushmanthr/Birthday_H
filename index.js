@@ -1,6 +1,4 @@
-
 class Tool {
-  
   // random number.
   static randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -426,9 +424,11 @@ class Particle {
   }
 }
 
+
 (function () {
   "use strict";
   window.addEventListener("load", function () {
+    
     canvas = new Canvas(true);
     offCanvas = new Canvas(false);
     offCanvas.offInit();
@@ -471,7 +471,13 @@ class Particle {
       },
       false
     );
-
+    var clicks = 0;
+    canvas.canvas.onclick=function(){
+      clicks += 1;
+      if(clicks==20){
+        window.location.href = 'video.html'
+      }
+    }
     canvas.canvas.addEventListener(
       "touchend",
       function (e) {
