@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
+ #btn{
+     border-radius: 50px;
+     margin-top: 500px;
+     margin-left: 600px;
+     font-size: 50px;
+     background-color: antiquewhite;
+     cursor: pointer;
+ } 
+=======
 html,
 body {
   overflow: hidden;
@@ -22,3 +32,4 @@ body {
   margin-right: auto;
   align-items: center;
 }
+>>>>>>> c8597bd39946adf57b1357ac6e67c3b277b5f31b
