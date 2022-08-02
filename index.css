@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    overflow: hidden;
+  }
+  
+  body {
+    position: relative;
+  }
+
+ #btn{
+     border-radius: 50px;
+     margin-top: 500px;
+     margin-left: 600px;
+     font-size: 50px;
+     background-color: antiquewhite;
+ } 
